@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  
+  <groups>
+  
+  <!--	<define name="Delta">
+  		<include name="sanity"></include>
+  	  	</define> -->
+  
+   	<run>
+   	<include name="Complete"></include>
+   	<exclude name="smoke"></exclude>
+   	
+   <!-- <include name="Delta"></include>
+   	
+ 		<include name ="smoke"></include>
+  		<include name = "sanity"></include>
+  		<exclude name="smoke"></exclude>   -->
+  		
+  	</run>
+  </groups>
+  
+    <classes>
+      <class name="training.Group"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
