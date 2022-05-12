@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-12T12:28:39 IST" name="Suite" finished-at="2022-05-12T12:28:39 IST" duration-ms="83">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T12:28:39 IST" name="Test" finished-at="2022-05-12T12:28:39 IST" duration-ms="83">
+      <class name="testEnv.Logout">
+        <test-method signature="logoutTest()[pri:0, instance:testEnv.Logout@68c72235]" started-at="2022-05-12T12:28:39 IST" name="logoutTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- testEnv.Logout -->
+      <class name="testEnv.Login">
+        <test-method signature="loginTest()[pri:0, instance:testEnv.Login@40cb8df7]" started-at="2022-05-12T12:28:39 IST" name="loginTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testEnv.Login -->
+      <class name="testEnv.Register">
+        <test-method signature="regTest()[pri:0, instance:testEnv.Register@6b8ca3c8]" started-at="2022-05-12T12:28:39 IST" name="regTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regTest -->
+      </class> <!-- testEnv.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2022-05-12T12:28:39 IST" name="Suite (1)" finished-at="2022-05-12T12:28:39 IST" duration-ms="15">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T12:28:39 IST" name="Test" finished-at="2022-05-12T12:28:39 IST" duration-ms="15">
+      <class name="uatEnv.LogoutUAT">
+        <test-method signature="logoutUATTest()[pri:0, instance:uatEnv.LogoutUAT@4d5b6aac]" started-at="2022-05-12T12:28:39 IST" name="logoutUATTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutUATTest -->
+      </class> <!-- uatEnv.LogoutUAT -->
+      <class name="uatEnv.RegUAT">
+        <test-method signature="regUATTest()[pri:0, instance:uatEnv.RegUAT@429bffaa]" started-at="2022-05-12T12:28:39 IST" name="regUATTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regUATTest -->
+      </class> <!-- uatEnv.RegUAT -->
+      <class name="uatEnv.LoginUAT">
+        <test-method signature="loginUATTest()[pri:0, instance:uatEnv.LoginUAT@5403f35f]" started-at="2022-05-12T12:28:39 IST" name="loginUATTest" finished-at="2022-05-12T12:28:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUATTest -->
+      </class> <!-- uatEnv.LoginUAT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite started-at="2022-05-12T12:28:39 IST" name="Suite (0)" finished-at="2022-05-12T12:28:39 IST" duration-ms="17">
+    <groups>
+    </groups>
+    <test started-at="2022-05-12T12:28:39 IST" name="Test" finished-at="2022-05-12T12:28:39 IST" duration-ms="17">
+      <class name="prodEnv.RegRPROD">
+        <test-method signature="regPRODTEST()[pri:0, instance:prodEnv.RegRPROD@ea6147e]" started-at="2022-05-12T12:28:39 IST" name="regPRODTEST" finished-at="2022-05-12T12:28:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regPRODTEST -->
+      </class> <!-- prodEnv.RegRPROD -->
+      <class name="prodEnv.LogoutPROD">
+        <test-method signature="logputPRODTEST()[pri:0, instance:prodEnv.LogoutPROD@4d02f94e]" started-at="2022-05-12T12:28:39 IST" name="logputPRODTEST" finished-at="2022-05-12T12:28:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logputPRODTEST -->
+      </class> <!-- prodEnv.LogoutPROD -->
+      <class name="prodEnv.LoginPROD">
+        <test-method signature="loginPRODTEST()[pri:0, instance:prodEnv.LoginPROD@2b48a640]" started-at="2022-05-12T12:28:39 IST" name="loginPRODTEST" finished-at="2022-05-12T12:28:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPRODTEST -->
+      </class> <!-- prodEnv.LoginPROD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite started-at="2022-05-12T12:28:39 IST" name="Complete_Suite" finished-at="2022-05-12T12:28:39 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Complete_Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TrialSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TrailTest(failed)">
+    <classes>
+      <class name="training.AlwaysRun">
+        <methods>
+          <include name="Begin"/>
+          <include name="Ready"/>
+          <include name="Steady"/>
+          <include name="Go"/>
+        </methods>
+      </class> <!-- training.AlwaysRun -->
+      <class name="training.Asserttion">
+        <methods>
+          <include name="High"/>
+          <include name="Critical"/>
+        </methods>
+      </class> <!-- training.Asserttion -->
+    </classes>
+  </test> <!-- TrailTest(failed) -->
+</suite> <!-- Failed suite [TrialSuite] -->
